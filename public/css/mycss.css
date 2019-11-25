@@ -1,0 +1,157 @@
+.noprod{
+		height: 300px;
+		position: relative;
+	}
+	.noprod h1{
+		margin: 0 auto;
+		position: relative;
+		margin-top:10%;
+	}
+.portada{
+	background-image: url('../Image/Garnet Hill Lodge.jpg');
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+.nosotros{
+	background-image: url('../Image/nosotros.jpg');
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.navbar{
+	background-color: #212121;
+	color:#fff;
+	opacity: 0.8;
+}
+
+
+.navbar-brand{
+	color : #fff !important;
+}
+.navbar-toggler{
+	color: #fff !important;
+	background-color: #fff !important;
+}
+.nav-link{
+	color: #fff !important;
+	font-size: 15px;
+	padding-left: 1px !important;
+}
+/* GLOBAL STYLES */
+body {
+  background-color: #213E4A;
+ 
+  
+}
+.index{
+	color:#fff;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h5 {
+	
+	justify-content: center;
+  color: #fff;
+  font-size: 33px;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end ;
+}
+.typewriter{
+	display: flex;
+  justify-content: center;
+}
+.first{
+	padding-top: 20%;
+}
+.first h5{
+	font-size: 23px !important;
+}
+@media only screen and (max-width: 600px) {
+.typewriter h5 {
+	font-size: 20px;
+}
+.navbar-collapse{
+	background-color: #37474f;
+	border-radius:10px;
+}
+.navbar-nav img{
+	margin-left: 40vh !important;
+}
+.first{
+	padding-top: 40%;
+}
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 30% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+#sticky-footer a,h1,h2{
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+.uvas{
+	background-image: url('../productos/uvas-manos.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 60vh;
+}
+.uvas h3{
+	display: block;
+	position: relative;
+	top:50%;
+	
+	color:#fff;
+}
+.products h1{
+	color: black;
+}
+.products{
+	height: 70vh;
+}
+.products img{
+	height: 5	0vh;
+}
+.exclusivos h1{
+	color: black;
+}
+.exclusivos{
+	height: 70vh;
+}
+.exclusivos img{
+	height: 5	0vh;
+}
+.us h6{
+	color: #fff;
+}
+.noprod{
+	text-align: center;
+	margin: auto;
+	display: block;
+	padding: 150px;
+}
